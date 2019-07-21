@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <script src="js/geo.js"></script>
+    <script src="js/layout.js"></script>
+    <header>
+        <h1>Weather App by Mare</h1>
+        <h2 class="noGeo"></h2>
+    </header>
+
+    <section class="daily">
+        <h2>Nedeljna prognoza</h2>
+        <p class="dailySumm"></p>
+
+    </section>
+
+    <section class="currently">
+        <p style="display: flex;"><span class="summ"></span><img class="weatherIcon" src="" alt="" /></p>
+        <p>Subjektivni osecaj: <span class="aprTemp"></span>°</p>
+        <p>Temperatura: <span class="temp"></span>°</p>
+        <p>Vazdusni pritisak: <span class="pressure"></span></p>
+        <p>UV index: <span class="uvInd"></span></p>
+        <p>Vetar: <span class="winSpd"></span>mps</p>
+        <p>Vidljivost: <span class="visibility"></span>km</p>
+    </section>
+
+
+</body>
+
+</html>

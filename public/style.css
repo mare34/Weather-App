@@ -1,0 +1,41 @@
+.noGeo {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    border: 2px solid red;
+    color: red;
+}
+
+.daily {
+    border: 2px solid orange;
+    padding: .4rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.daily h2 {
+    text-decoration: underline orange;
+}
+
+.currently {
+    padding: 1rem;
+    border: 1px solid grey;
+    width: max-content;
+    background-color: rgb(207, 233, 241);
+}
+
+.currently p {
+    margin: 0;
+    padding: .4rem;
+    color: rgb(92, 87, 117);
+}
+
+.currently span {
+    color: rgb(180, 109, 1);
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.currently .summ {
+    display: table;
+    font-size: 1.3em;
+}
